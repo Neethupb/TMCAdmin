@@ -1,0 +1,17 @@
+
+gsquid:CommentedOutCodeLinew"<This block of commented-out lines of code should be removed.(á´öúÿÿÿÿ
+nsquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
+=squid:S1659"&Declare "password" on a separate line.(ÑÄ¸‘
+bsquid:CommentedOutCodeLinee"<This block of commented-out lines of code should be removed.(ÌÎŸš
+psquid:S00116("XRename this field "CheckEditText" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹íŒÏ
+gsquid:CommentedOutCodeLineq"<This block of commented-out lines of code should be removed.(¬ì†½øÿÿÿÿ
+rsquid:S00115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë
+jsquid:S00116'"RRename this field "HttpUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡´
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ü­³÷øÿÿÿÿ
+9squid:S1659""Declare "pass" on a separate line.(ÓáÔ
+ksquid:S00100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûçÀ€øÿÿÿÿ
+hsquid:HiddenFieldCheck—"@Rename "requestQueue" which hides the field declared at line 33.(ÅÀøÿÿÿÿ
+vsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+bsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(Ì—ä
+;squid:S1659)"$Declare "shopid" on a separate line.(ª«Š£
+gsquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(ëÑ ·ÿÿÿÿÿ

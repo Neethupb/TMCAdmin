@@ -1,0 +1,10 @@
+
+^squid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+@squid:S1659"$Declare "logout" on a separate line.(®áÎÿÿÿÿÿ
+Dsquid:S1659"(Declare "attendance" on a separate line.(®áÎÿÿÿÿÿ
+Bsquid:S1659"&Declare "promoter" on a separate line.(®áÎÿÿÿÿÿ
+Dsquid:S1659"(Declare "activation" on a separate line.(®áÎÿÿÿÿÿ
+jsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(È—Á¦ÿÿÿÿÿ
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë8öôıİâ-
+>squid:S1659""Declare "shop" on a separate line.(®áÎÿÿÿÿÿ
+[squid:UselessImportCheck"2Remove this unused import 'android.widget.Button'.(²òıÿÿÿÿ

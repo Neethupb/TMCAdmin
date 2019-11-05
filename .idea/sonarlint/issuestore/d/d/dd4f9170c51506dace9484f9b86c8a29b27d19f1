@@ -1,0 +1,68 @@
+
+bsquid:HiddenFieldCheckì":Rename "intent" which hides the field declared at line 44.(Æ¹íÖûÿÿÿÿ
+?squid:S1659-"#Declare "phone" on a separate line.(¸„ùóûÿÿÿÿ
+^squid:UselessImportCheck"5Remove this unused import 'android.widget.ImageView'.(ú¯ëàüÿÿÿÿ
+nsquid:S00116("VRename this field "HttpUrlMail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éò¿Î
+hsquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(òÔÃ¢ÿÿÿÿÿ
+csquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(œçö©
+csquid:CommentedOutCodeLineª"<This block of commented-out lines of code should be removed.(«ƒø€
+csquid:CommentedOutCodeLineÔ"<This block of commented-out lines of code should be removed.(«ƒø€
+jsquid:S00116'"RRename this field "HttpUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼È›É
+hsquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(°¿˜Õúÿÿÿÿ
+>squid:S1659-""Declare "name" on a separate line.(¸„ùóûÿÿÿÿ
+hsquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(¹õ€³øÿÿÿÿ
+jsquid:MaximumInheritanceDepth "<This class has 6 parents which is greater than 5 authorized.(—×¨»ùÿÿÿÿ
+hsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(ÌÑ÷Äûÿÿÿÿ
+hsquid:CommentedOutCodeLineÇ"<This block of commented-out lines of code should be removed.(¹õ€³øÿÿÿÿ
+<squid:S1659-" Declare "id" on a separate line.(¸„ùóûÿÿÿÿ
+@squid:S1659/"$Declare "txtmob" on a separate line.(ú®¥šşÿÿÿÿ
+Bsquid:S1659/"&Declare "txtemail" on a separate line.(ú®¥šşÿÿÿÿ
+rsquid:S00115*"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë
+=squid:S1659-"!Declare "typ" on a separate line.(¸„ùóûÿÿÿÿ
+>squid:S1659-""Declare "imei" on a separate line.(¸„ùóûÿÿÿÿ
+csquid:S1192¦"FDefine a constant instead of duplicating this literal "Error" 4 times.(¯İÁÛÿÿÿÿÿ
+Ysquid:UselessImportCheck"5Remove this unused import 'android.text.TextWatcher'.( š«
+Fsquid:S1659-"*Declare "invoice_date" on a separate line.(¸„ùóûÿÿÿÿ
+hsquid:CommentedOutCodeLine×"<This block of commented-out lines of code should be removed.(¦Ñ¬“øÿÿÿÿ
+Gsquid:S1659/"+Declare "txtcardnumber" on a separate line.(ú®¥šşÿÿÿÿ
+[squid:UselessImportCheck"2Remove this unused import 'android.text.Editable'.(À”áÈşÿÿÿÿ
+@squid:S1659-"$Declare "gadget" on a separate line.(¸„ùóûÿÿÿÿ
+tsquid:S00116-"WRename this field "invoice_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸„ùóûÿÿÿÿ
+lsquid:S00100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¼üâûÿÿÿÿ
+vsquid:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+Bsquid:S1659/"&Declare "txtphone" on a separate line.(ú®¥šşÿÿÿÿ
+bsquid:HiddenFieldCheck®":Rename "intent" which hides the field declared at line 44.(³Ëå«ùÿÿÿÿ
+osquid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
+Asquid:S1659."%Declare "backbtn" on a separate line.(øË Şûÿÿÿÿ
+csquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(«ƒø€
+hsquid:HiddenFieldCheckà"@Rename "requestQueue" which hides the field declared at line 35.(Òûš®úÿÿÿÿ
+@squid:S1659-"$Declare "actkey" on a separate line.(¸„ùóûÿÿÿÿ
+Asquid:S1659/"%Declare "txtdate" on a separate line.(ú®¥šşÿÿÿÿ
+bsquid:HiddenFieldCheckÄ":Rename "intent" which hides the field declared at line 44.(Æ¹íÖûÿÿÿÿ
+vsquid:S2293È"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+Asquid:S1659/"%Declare "txtimei" on a separate line.(ú®¥šşÿÿÿÿ
+>squid:S1659-""Declare "back" on a separate line.(¸„ùóûÿÿÿÿ
+Csquid:S1659/"'Declare "txtgadget" on a separate line.(ú®¥šşÿÿÿÿ
+hsquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(¹õ€³øÿÿÿÿ
+csquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(«ƒø€
+?squid:S1659-"#Declare "proof" on a separate line.(¸„ùóûÿÿÿÿ
+lsquid:S00100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ûàûÿÿÿÿ
+bsquid:HiddenFieldCheck²":Rename "intent" which hides the field declared at line 44.(ò“ºñúÿÿÿÿ
+>squid:S1659-""Declare "shop" on a separate line.(¸„ùóûÿÿÿÿ
+bsquid:HiddenFieldCheckØ":Rename "intent" which hides the field declared at line 44.(³Ëå«ùÿÿÿÿ
+hsquid:HiddenFieldCheck"@Rename "requestQueue" which hides the field declared at line 35.(Òûš®úÿÿÿÿ
+?squid:S1659-"#Declare "front" on a separate line.(¸„ùóûÿÿÿÿ
+?squid:S1659-"#Declare "email" on a separate line.(¸„ùóûÿÿÿÿ
+osquid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
+>squid:S1659-""Declare "bill" on a separate line.(¸„ùóûÿÿÿÿ
+Asquid:S1659/"%Declare "txtshop" on a separate line.(ú®¥šşÿÿÿÿ
+=squid:S1659-"!Declare "mob" on a separate line.(¸„ùóûÿÿÿÿ
+?squid:S1659/"#Declare "txtid" on a separate line.(ú®¥šşÿÿÿÿ
+?squid:S1659-"#Declare "price" on a separate line.(¸„ùóûÿÿÿÿ
+Asquid:S1659-"%Declare "mobshop" on a separate line.(¸„ùóûÿÿÿÿ
+hsquid:CommentedOutCodeLineÛ"<This block of commented-out lines of code should be removed.(¹õ€³øÿÿÿÿ
+Dsquid:S1659/"(Declare "txtmobshop" on a separate line.(ú®¥šşÿÿÿÿ
+hsquid:CommentedOutCodeLineÒ"<This block of commented-out lines of code should be removed.(¥£Ä“ùÿÿÿÿ
+Bsquid:S1659/"&Declare "txtprice" on a separate line.(ú®¥šşÿÿÿÿ
+csquid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(«ƒø€
+@squid:S1659/"$Declare "txttyp" on a separate line.(ú®¥šşÿÿÿÿ

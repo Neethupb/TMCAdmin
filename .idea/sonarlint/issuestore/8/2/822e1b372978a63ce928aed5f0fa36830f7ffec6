@@ -1,0 +1,74 @@
+
+Jsquid:S1199í"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+osquid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
+:squid:S1148"#Use a logger to log this exception.(ˆñA
+esquid:MaximumInheritanceDepth'"<This class has 6 parents which is greater than 5 authorized.(ƒ¹‹ö
+Asquid:S1659("%Declare "contact" on a separate line.(å¬Éºøÿÿÿÿ
+>squid:S1659(""Declare "mail" on a separate line.(å¬Éºøÿÿÿÿ
+@squid:S1659("$Declare "target" on a separate line.(å¬Éºøÿÿÿÿ
+@squid:S1659("$Declare "salary" on a separate line.(å¬Éºøÿÿÿÿ
+@squid:S1659("$Declare "timing" on a separate line.(å¬Éºøÿÿÿÿ
+=squid:S1659("!Declare "asm" on a separate line.(å¬Éºøÿÿÿÿ
+>squid:S1659(""Declare "date" on a separate line.(å¬Éºøÿÿÿÿ
+:squid:S1659)"#Declare "ptype" on a separate line.(ßı„¤
+<squid:S1659*"%Declare "aproval" on a separate line.(ÒâòÏ
+9squid:S1659*""Declare "back" on a separate line.(ÒâòÏ
+@squid:S16598"$Declare "mMonth" on a separate line.(İ—Ûéşÿÿÿÿ
+>squid:S16598""Declare "mDay" on a separate line.(İ—Ûéşÿÿÿÿ
+Asquid:S1659:"%Declare "asmname" on a separate line.(¸Êƒ–üÿÿÿÿ
+?squid:S1659:"#Declare "pname" on a separate line.(¸Êƒ–üÿÿÿÿ
+Bsquid:S1659:"&Declare "pcontact" on a separate line.(¸Êƒ–üÿÿÿÿ
+?squid:S1659:"#Declare "pmail" on a separate line.(¸Êƒ–üÿÿÿÿ
+Asquid:S1659:"%Declare "ptarget" on a separate line.(¸Êƒ–üÿÿÿÿ
+Asquid:S1659:"%Declare "psalary" on a separate line.(¸Êƒ–üÿÿÿÿ
+Asquid:S1659:"%Declare "ptiming" on a separate line.(¸Êƒ–üÿÿÿÿ
+>squid:S1659:""Declare "pasm" on a separate line.(¸Êƒ–üÿÿÿÿ
+@squid:S1659:"$Declare "pptype" on a separate line.(¸Êƒ–üÿÿÿÿ
+?squid:S1659:"#Declare "pdate" on a separate line.(¸Êƒ–üÿÿÿÿ
+@squid:S1659:"$Declare "pimage" on a separate line.(¸Êƒ–üÿÿÿÿ
+=squid:S1659:"!Declare "pid" on a separate line.(¸Êƒ–üÿÿÿÿ
+Asquid:S1659:"%Declare "presume" on a separate line.(¸Êƒ–üÿÿÿÿ
+?squid:S1659:"#Declare "pbank" on a separate line.(¸Êƒ–üÿÿÿÿ
+psquid:S14508"TRemove the "mYear" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ
+qsquid:S14508"URemove the "mMonth" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ
+osquid:S14508"SRemove the "mDay" field and declare it as a local variable in the relevant methods.(İ—Ûéşÿÿÿÿ
+˜squid:S1186¦"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«à¯
+squid:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+esquid:S00116-"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğá¥
+jsquid:S00116."RRename this field "HttpUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª– Û
+ssquid:S00116/"VRename this field "CountryName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚‘¼ÿÿÿÿÿ
+rsquid:S001154"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë
+[squid:HiddenFieldCheckK"9Rename "ptype" which hides the field declared at line 41.(ÃñÛë
+Ssquid:S1854¨";Remove this useless assignment to local variable "country".(ÉÈ°¨
+^squid:HiddenFieldCheck¨";Rename "country" which hides the field declared at line 43.(ÉÈ°¨
+jsquid:S3776Ñ"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¶¸Ùæ
+gsquid:S00100Ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¸Ùæ
+gsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÊ§ç
+vsquid:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+hsquid:HiddenFieldCheckç"@Rename "requestQueue" which hides the field declared at line 49.(Ñ¦åŞùÿÿÿÿ
+hsquid:HiddenFieldCheckî"@Rename "requestQueue" which hides the field declared at line 49.(ä¹ôßûÿÿÿÿ
+csquid:HiddenFieldCheck÷";Rename "country" which hides the field declared at line 43.(çìËíøÿÿÿÿ
+Dsquid:S1481¨",Remove this unused "country" local variable.(ÉÈ°¨
+gsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(¸Š‡œúÿÿÿÿ
+gsquid:CommentedOutCodeLineQ"<This block of commented-out lines of code should be removed.(˜¬ïßşÿÿÿÿ
+asquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(Ş¾¼%
+bsquid:CommentedOutCodeLineU"<This block of commented-out lines of code should be removed.(˜ã„Ş
+gsquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(Óè¬Äıÿÿÿÿ
+bsquid:CommentedOutCodeLineb"<This block of commented-out lines of code should be removed.(§ã•Š
+bsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(©±ğÊ
+gsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(Áöùÿÿÿÿ
+csquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(ŸıÜø
+hsquid:CommentedOutCodeLine©"<This block of commented-out lines of code should be removed.(ù‹ÌÍüÿÿÿÿ
+csquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(Ù«µ§
+csquid:CommentedOutCodeLineÒ"<This block of commented-out lines of code should be removed.(º›¢
+hsquid:CommentedOutCodeLineÕ"<This block of commented-out lines of code should be removed.(Ëüô“ÿÿÿÿÿ
+bsquid:CommentedOutCodeLineÜ"<This block of commented-out lines of code should be removed.(˜õ‘?
+hsquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(ÕøŸÔûÿÿÿÿ
+bsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(§ƒ¾5
+csquid:CommentedOutCodeLineë"<This block of commented-out lines of code should be removed.(ŠØÆÑ
+hsquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(”ôæÌıÿÿÿÿ
+hsquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(”ôæÌıÿÿÿÿ
+csquid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.(õ¼¤à
+csquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(½‘Ñ³
+hsquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(á´öúÿÿÿÿ
+bsquid:CommentedOutCodeLineá"<This block of commented-out lines of code should be removed.(şÖÂ-

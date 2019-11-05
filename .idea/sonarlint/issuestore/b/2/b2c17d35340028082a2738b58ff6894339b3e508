@@ -1,0 +1,34 @@
+
+hsquid:CommentedOutCodeLineÉ"<This block of commented-out lines of code should be removed.(‚©æÍùÿÿÿÿ
+gsquid:S00100¾"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÕ‹ö
+dsquid:MaximumInheritanceDepth&"<This class has 6 parents which is greater than 5 authorized.(–Ú‹K
+>squid:S16593""Declare "dppc" on a separate line.(ĞÏ­äøÿÿÿÿ
+csquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(„òùé
+esquid:S00116'"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğá¥
+@squid:S16594"$Declare "sprdct" on a separate line.(Ï”™³üÿÿÿÿ
+>squid:S16598""Declare "dpbr" on a separate line.(ÅÌ¾üÿÿÿÿ
+hsquid:CommentedOutCodeLineµ"<This block of commented-out lines of code should be removed.(ù‹ÌÍüÿÿÿÿ
+osquid:S00116("RRename this field "HttpUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÍÁ¨ûÿÿÿÿ
+bsquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(ÊáµÌ
+vsquid:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+Bsquid:S16594"&Declare "quantity" on a separate line.(Ï”™³üÿÿÿÿ
+csquid:HiddenFieldCheckø";Rename "country" which hides the field declared at line 57.(çìËíøÿÿÿÿ
+squid:S1186œ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+˜squid:S1186—"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«à¯
+rsquid:S00115."ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë
+hsquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(©’Òıøÿÿÿÿ
+Asquid:S16594"%Declare "dpprice" on a separate line.(Ï”™³üÿÿÿÿ
+@squid:S16594"$Declare "squnty" on a separate line.(Ï”™³üÿÿÿÿ
+ssquid:S00116)"VRename this field "CountryName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚‘¼ÿÿÿÿÿ
+osquid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
+jsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï‡¶
+:squid:S1148‚"#Use a logger to log this exception.(ˆñA
+?squid:S16592"#Declare "order" on a separate line.(œşş÷şÿÿÿÿ
+>squid:S16594""Declare "sprc" on a separate line.(Ï”™³üÿÿÿÿ
+=squid:S16598"!Declare "qbr" on a separate line.(ÅÌ¾üÿÿÿÿ
+>squid:S16594""Declare "shop" on a separate line.(Ï”™³üÿÿÿÿ
+csquid:HiddenFieldCheckè"@Rename "requestQueue" which hides the field declared at line 43.(òƒß”
+P"squid:SwitchLastCaseIsDefaultCheck^""Add a default case to this switch.(ÍÕš¸
+hsquid:HiddenFieldCheckï"@Rename "requestQueue" which hides the field declared at line 43.(ä¹ôßûÿÿÿÿ
+hsquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(©’Òıøÿÿÿÿ
+hsquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(á´öúÿÿÿÿ

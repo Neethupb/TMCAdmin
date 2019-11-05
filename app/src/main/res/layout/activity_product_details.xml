@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colortext"
+    tools:context=".ProductDetailsActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/knightshield" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="356dp">
+        <TableRow
+            android:background="#eb1b0c"
+            android:padding="5dp">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/colortext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Product" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/colortext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Price Range" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/colortext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Price" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Bronze" />
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Upto 5999" />
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="699" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Bronze Plus" />
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="6000 to 9999" />
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="999" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Silver" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10000 to 14999"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1499"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Silver Plus" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15000 to 19999"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1999"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Gold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="20000 to 29999"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2499"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Gold Plus" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="30000 to 39999"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3299"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Platinum" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="40000 to 49999"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="3799"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Platinum Plus" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="50000 to 69999"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4499"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff"
+            android:padding="5dp">
+            <TextView
+                android:textColor="#0f0f0f"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Knight Shield Diamond" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="70000 to 90000"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5499"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

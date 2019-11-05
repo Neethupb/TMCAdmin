@@ -1,0 +1,56 @@
+
+jsquid:S1192ˆ"MDefine a constant instead of duplicating this literal "shopreg_name" 3 times.(€ê‘˜úÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
+osquid:S00117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
+:squid:S1148¨"#Use a logger to log this exception.(ˆñA
+esquid:MaximumInheritanceDepth%"<This class has 6 parents which is greater than 5 authorized.(¥ä·÷
+?squid:S16594"#Declare "share" on a separate line.(ÖÿŞ¥ûÿÿÿÿ
+<squid:S16596"%Declare "message" on a separate line.(¨ô–
+9squid:S16596""Declare "name" on a separate line.(¨ô–
+9squid:S16596""Declare "shop" on a separate line.(¨ô–
+;squid:S16596"$Declare "shopid" on a separate line.(¨ô–
+<squid:S16596"%Declare "country" on a separate line.(¨ô–
+=squid:S16596"&Declare "shopname" on a separate line.(¨ô–
+Bsquid:S16598"&Declare "brnzplus" on a separate line.(Ö«â‹øÿÿÿÿ
+?squid:S16598"#Declare "silvr" on a separate line.(Ö«â‹øÿÿÿÿ
+Bsquid:S16598"&Declare "silvrpls" on a separate line.(Ö«â‹øÿÿÿÿ
+>squid:S16598""Declare "gold" on a separate line.(Ö«â‹øÿÿÿÿ
+@squid:S16598"$Declare "gldpls" on a separate line.(Ö«â‹øÿÿÿÿ
+?squid:S16598"#Declare "pltnm" on a separate line.(Ö«â‹øÿÿÿÿ
+Bsquid:S16598"&Declare "pltnmpls" on a separate line.(Ö«â‹øÿÿÿÿ
+?squid:S16598"#Declare "dimnd" on a separate line.(Ö«â‹øÿÿÿÿ
+esquid:S00116&"NRename this field "URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğá¥
+osquid:S00116'"RRename this field "HttpUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÍÁ¨ûÿÿÿÿ
+qsquid:S00116("TRename this field "HttpUrlId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÒÁüÿÿÿÿ
+ssquid:S00116*"VRename this field "CountryName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚‘¼ÿÿÿÿÿ
+lsquid:S00116+"TRename this field "CountryId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò±•ì
+rsquid:S001151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë
+˜squid:S1186X"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+˜squid:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡é††
+ksquid:S00100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼«˜³øÿÿÿÿ
+vsquid:S2293´"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+hsquid:HiddenFieldCheck½"@Rename "requestQueue" which hides the field declared at line 46.(ãÓªùÿÿÿÿ
+gsquid:S00100Â"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀğŠÕ
+vsquid:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
+hsquid:HiddenFieldCheckŒ"@Rename "requestQueue" which hides the field declared at line 46.(ãÓªùÿÿÿÿ
+hsquid:HiddenFieldCheck“"@Rename "requestQueue" which hides the field declared at line 46.(ä¹ôßûÿÿÿÿ
+gsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(Â½ú©şÿÿÿÿ
+bsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(˜ö€³
+gsquid:CommentedOutCodeLineG"<This block of commented-out lines of code should be removed.(¨ìÂ•ùÿÿÿÿ
+bsquid:CommentedOutCodeLiney"<This block of commented-out lines of code should be removed.(Ûµü±
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ö´Š§ÿÿÿÿÿ
+csquid:CommentedOutCodeLineŠ"<This block of commented-out lines of code should be removed.(ÌÎŸš
+hsquid:CommentedOutCodeLine‘"<This block of commented-out lines of code should be removed.(‚ó…ÿúÿÿÿÿ
+hsquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(Àµ®ãüÿÿÿÿ
+csquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(õ¼¤à
+csquid:CommentedOutCodeLine›"<This block of commented-out lines of code should be removed.(çàÈğ
+hsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(ö´Š§ÿÿÿÿÿ
+hsquid:CommentedOutCodeLine¸"<This block of commented-out lines of code should be removed.(¾Ğ—Ïùÿÿÿÿ
+csquid:CommentedOutCodeLineÄ"<This block of commented-out lines of code should be removed.(Ûµü±
+hsquid:CommentedOutCodeLineÌ"<This block of commented-out lines of code should be removed.(ö´Š§ÿÿÿÿÿ
+bsquid:CommentedOutCodeLineä"<This block of commented-out lines of code should be removed.(šãàx
+hsquid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(»¢¯Áùÿÿÿÿ
+hsquid:CommentedOutCodeLineû"<This block of commented-out lines of code should be removed.(ö´Š§ÿÿÿÿÿ
+hsquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(¾Ğ—Ïùÿÿÿÿ
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™îÿ·şÿÿÿÿ
+csquid:CommentedOutCodeLineŸ"<This block of commented-out lines of code should be removed.(¡×®ç

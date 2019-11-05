@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PromoterActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+        <TextView
+            android:id="@+id/textView51"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colortext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promoter" />
+    </androidx.appcompat.widget.Toolbar>
+    <!--<Button
+        android:id="@+id/button31"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/buttonshape"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colortext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD PROMOTER" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colortext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT/REMOVE" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colortext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW PROMOTER" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonshape"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colortext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK" />-->
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/promoter"
+            android:background="@drawable/customborder"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                android:src="@mipmap/addpromoter" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="ADD PROMOTER"
+                android:textAlignment="center"
+                android:textColor="#00793a"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/edit"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/customborder"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="wrap_content"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                android:src="@mipmap/editshop" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="EDIT/REMOVE"
+                android:textAlignment="center"
+                android:textColor="#00793a"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+<!--        <LinearLayout
+            android:id="@+id/stock"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/customborder"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                android:src="@mipmap/stock" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="STOCK"
+                android:textAlignment="center"
+                android:textColor="#00793a"
+                android:textStyle="bold" />
+        </LinearLayout>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/view"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/customborder"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                android:src="@mipmap/viewpromoter" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="VIEW"
+                android:textAlignment="center"
+                android:textColor="#00793a"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/home"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/customborder"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="11dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                android:src="@mipmap/report" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="HOME"
+                android:textAlignment="center"
+                android:textColor="#00793a"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+       <!-- <LinearLayout
+            android:id="@+id/empty"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/customborder"
+            android:orientation="vertical">
+            &lt;!&ndash; <ImageView
+                 android:id="@+id/imageView23"
+                 android:layout_width="wrap_content"
+                 android:layout_height="11dp"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="15dp"
+                 android:layout_weight="1"
+                 android:contentDescription="TODO"
+                 android:src="@mipmap/report" />
+
+             <TextView
+                 android:id="@+id/textView23"
+                 android:layout_width="match_parent"
+                 android:layout_height="5dp"
+                 android:layout_gravity="center"
+                 android:layout_weight="1"
+                 android:text="PURCHASE ORDER"
+                 android:textAlignment="center"
+                 android:textColor="#00793a"
+                 android:textStyle="bold" />&ndash;&gt;
+
+
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+</LinearLayout>
