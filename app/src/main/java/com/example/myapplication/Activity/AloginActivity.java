@@ -69,7 +69,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-
 public class AloginActivity extends AppCompatActivity {
 LinearLayout report,shop,attendance,logout,activation,promoter;
 String asm,selectshop,ids,shopname;

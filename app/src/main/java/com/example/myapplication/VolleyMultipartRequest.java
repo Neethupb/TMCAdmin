@@ -16,16 +16,12 @@ import java.io.UnsupportedEncodingException;
 import java.util.Map;
 
 public class VolleyMultipartRequest extends Request<NetworkResponse> {
-
     private final String twoHyphens = "--";
     private final String lineEnd = "\r\n";
     private final String boundary = "apiclient-" + System.currentTimeMillis();
-
     private Response.Listener<NetworkResponse> mListener;
     private Response.ErrorListener mErrorListener;
     private Map<String, String> mHeaders;
-
-
     public VolleyMultipartRequest(int method, String url,
                                   Response.Listener<NetworkResponse> listener,
                                   Response.ErrorListener errorListener) {
@@ -38,12 +34,10 @@ public class VolleyMultipartRequest extends Request<NetworkResponse> {
     public Map<String, String> getHeaders() throws AuthFailureError {
         return (mHeaders != null) ? mHeaders : super.getHeaders();
     }
-
     @Override
     public String getBodyContentType() {
         return "multipart/form-data;boundary=" + boundary;
     }
-
     @Override
     public byte[] getBody() throws AuthFailureError {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -71,7 +65,6 @@ public class VolleyMultipartRequest extends Request<NetworkResponse> {
         }
         return null;
     }
-
     /**
      * Custom method handle data payload.
      *
@@ -81,7 +74,6 @@ public class VolleyMultipartRequest extends Request<NetworkResponse> {
     protected Map<String, DataPart> getByteData() throws AuthFailureError {
         return null;
     }
-
     @Override
     protected Response<NetworkResponse> parseNetworkResponse(NetworkResponse response) {
         try {
@@ -92,17 +84,14 @@ public class VolleyMultipartRequest extends Request<NetworkResponse> {
             return Response.error(new ParseError(e));
         }
     }
-
     @Override
     protected void deliverResponse(NetworkResponse response) {
         mListener.onResponse(response);
     }
-
     @Override
     public void deliverError(VolleyError error) {
         mErrorListener.onErrorResponse(error);
     }
-
     /**
      * Parse string map into data output stream by key and value.
      *
@@ -120,7 +109,6 @@ public class VolleyMultipartRequest extends Request<NetworkResponse> {
             throw new RuntimeException("Encoding not supported: " + encoding, uee);
         }
     }
-
     /**
      * Parse data into data output stream.
      *
@@ -184,7 +172,6 @@ public class VolleyMultipartRequest extends Request<NetworkResponse> {
 
         dataOutputStream.writeBytes(lineEnd);
     }
-
     public class DataPart {
         private String fileName;
         private byte[] content;

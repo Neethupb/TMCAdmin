@@ -68,7 +68,6 @@ public class CheckDetailsActivity extends Activity {
             }
         });
     }
-
     private void validation() {
         imeinumber=imei.getText().toString().trim();
         if (imei.getText() == null || imei.getText().toString().equalsIgnoreCase("")) {
@@ -81,7 +80,6 @@ public class CheckDetailsActivity extends Activity {
             Checkdetails();
         }
     }
-
     private void Checkdetails() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");

@@ -99,7 +99,6 @@ public class ClaimStatusActivity extends AppCompatActivity {
             }
         });
     }
-
     private void Status(){
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");

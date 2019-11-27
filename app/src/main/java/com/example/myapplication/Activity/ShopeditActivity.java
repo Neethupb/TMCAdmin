@@ -37,8 +37,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ShopeditActivity extends AppCompatActivity {
-
-
     ArrayList<String> CountryName;
     // Creating Volley RequestQueue.
     RequestQueue requestQueue;
@@ -124,7 +122,6 @@ public class ShopeditActivity extends AppCompatActivity {
             }
         });
     }
-
     private void Updateshop() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -189,7 +186,6 @@ public class ShopeditActivity extends AppCompatActivity {
         requestQueue.add(stringRequest);
 
     }
-
     private void Search() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -259,7 +255,6 @@ public class ShopeditActivity extends AppCompatActivity {
         requestQueue.add(stringRequest);
 
     }
-
     private void loadSpinnerData(String url) {
         {
             RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
@@ -290,7 +285,6 @@ public class ShopeditActivity extends AppCompatActivity {
             requestQueue.add(stringRequest);
         }
     }
-
     @Override
     public void onBackPressed()
     {

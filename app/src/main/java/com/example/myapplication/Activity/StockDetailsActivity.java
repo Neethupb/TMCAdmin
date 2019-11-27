@@ -113,7 +113,6 @@ share.setOnClickListener(new View.OnClickListener() {
             }
         });
     }
-
     private void shareIt() {
         Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
         sharingIntent.setType("text/plain");
@@ -124,7 +123,6 @@ share.setOnClickListener(new View.OnClickListener() {
         startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
     }
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -203,7 +201,6 @@ share.setOnClickListener(new View.OnClickListener() {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void Login() {
         // Showing progress dialog at user registration time.
        /* progressDialog.setMessage("Please Wait");
@@ -309,7 +306,6 @@ share.setOnClickListener(new View.OnClickListener() {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void loadSpinnerData(String url) {
 
         RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
@@ -341,7 +337,6 @@ share.setOnClickListener(new View.OnClickListener() {
         stringRequest.setRetryPolicy(policy);
         requestQueue.add(stringRequest);
     }
-
     @Override
     public void onBackPressed()
     {

@@ -113,7 +113,6 @@ public class ViewpromoterActivity extends AppCompatActivity {
         });
 
     }
-
     private void ViewDetails() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -178,7 +177,6 @@ public class ViewpromoterActivity extends AppCompatActivity {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void loadSpinnerData(String url) {
         {
             {
@@ -211,7 +209,6 @@ public class ViewpromoterActivity extends AppCompatActivity {
             }
         }
     }
-
     @Override
     public void onBackPressed()
     {

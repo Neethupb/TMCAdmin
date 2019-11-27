@@ -94,7 +94,6 @@ Button ok,back;
             }
         });
     }
-
     private void Login() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -167,7 +166,6 @@ Button ok,back;
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void loadSpinnerData(String url) {
         {
             RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
@@ -198,7 +196,6 @@ Button ok,back;
             requestQueue.add(stringRequest);
         }
     }
-
     @Override
     public void onBackPressed()
     {

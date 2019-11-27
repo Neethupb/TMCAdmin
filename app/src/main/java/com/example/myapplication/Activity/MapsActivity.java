@@ -145,7 +145,6 @@ back.setOnClickListener(new View.OnClickListener() {
     }
 });
     }
-
     private void Leave() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -209,8 +208,6 @@ back.setOnClickListener(new View.OnClickListener() {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
-
     private void captureImage() {
         Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(intent, CAMERA);
@@ -235,7 +232,6 @@ back.setOnClickListener(new View.OnClickListener() {
             }
        // }
     }
-
     private void uploadBitmap(final Bitmap bitmap) {
         //our custom volley request
         VolleyMultipartRequest volleyMultipartRequest = new VolleyMultipartRequest(Request.Method.POST, EndPoints.UPLOAD_URLATTENDANCE,
@@ -269,14 +265,11 @@ back.setOnClickListener(new View.OnClickListener() {
         //adding the request to volley
         Volley.newRequestQueue(this).add(volleyMultipartRequest);
     }
-
     public byte[] getFileDataFromDrawable(Bitmap bitmap) {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.JPEG, 90, byteArrayOutputStream);
         return byteArrayOutputStream.toByteArray();
     }
-
-
     private void Attendence() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -340,9 +333,6 @@ back.setOnClickListener(new View.OnClickListener() {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
-
-
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -363,7 +353,6 @@ back.setOnClickListener(new View.OnClickListener() {
         mMap.getUiSettings().setZoomControlsEnabled(true);
         mMap.setMinZoomPreference(11);
     }
-
     private void enableMyLocationIfPermitted() {
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.ACCESS_FINE_LOCATION)
@@ -376,7 +365,6 @@ back.setOnClickListener(new View.OnClickListener() {
             mMap.setMyLocationEnabled(true);
         }
     }
-
     private void showDefaultLocation() {
         Toast.makeText(this, "Location permission not granted, " +
                         "showing default location",
@@ -384,7 +372,6 @@ back.setOnClickListener(new View.OnClickListener() {
         LatLng redmond = new LatLng(47.6739881, -122.121512);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(redmond));
     }
-
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
@@ -395,7 +382,6 @@ back.setOnClickListener(new View.OnClickListener() {
             showDefaultLocation();
         }
     }
-
     private GoogleMap.OnMyLocationButtonClickListener onMyLocationButtonClickListener =
             new GoogleMap.OnMyLocationButtonClickListener() {
                 @Override
@@ -404,7 +390,6 @@ back.setOnClickListener(new View.OnClickListener() {
                     return false;
                 }
             };
-
     private GoogleMap.OnMyLocationClickListener onMyLocationClickListener =
             new GoogleMap.OnMyLocationClickListener() {
                 @Override
@@ -417,8 +402,6 @@ back.setOnClickListener(new View.OnClickListener() {
                             location.getLongitude()));
                     lat= String.valueOf(location.getLatitude());
                     lon= String.valueOf(location.getLongitude());
-                //    Toast.makeText(MapsActivity.this, lat, Toast.LENGTH_SHORT).show();
-
                     circleOptions.radius(200);
                     circleOptions.fillColor(Color.RED);
                     circleOptions.strokeWidth(6);
@@ -436,7 +419,6 @@ back.setOnClickListener(new View.OnClickListener() {
 
 
     }
-
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         result=spin.getSelectedItem().toString();
@@ -450,7 +432,6 @@ back.setOnClickListener(new View.OnClickListener() {
             cam.setVisibility(View.VISIBLE);
         }
     }
-
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 

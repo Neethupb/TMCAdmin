@@ -50,23 +50,18 @@ Button photo,idp,resume,bank,submit;
     public static final String MyPREFERENCES = "MyPrefs" ;
     SharedPreferences sharedpreferences;
     private int GALLERY = 1, CAMERA = 2,GALLERYID = 3,CAMERAID = 4,CAMERABANK = 5,GALLERYBANK = 6;
-
     // Server URL.
     public static final String PDF_UPLOAD_HTTP_URL = "http://www.truemobilecare.com/adminplus/api5.php";
-
     // Pdf upload request code.
     public int PDF_REQ_CODE = 1;
-
     // Define strings to hold given pdf name, path and ID.
     String PdfNameHolder, PdfPathHolder, PdfID,path,pathid,pathphoto;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_upload);
-
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_upload);
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
-
         photo=(Button)findViewById(R.id.photo);
         photo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -135,18 +130,15 @@ Button photo,idp,resume,bank,submit;
                 });
         pictureDialog.show();
     }
-
     private void captureImagebank() {
         Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(intent, CAMERABANK);
     }
-
     private void choosePhotoFromGallarybank() {
         Intent galleryIntent = new Intent(Intent.ACTION_PICK,
                 android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(galleryIntent, GALLERYBANK);
     }
-
     private void showPictureDialogid() {
         AlertDialog.Builder pictureDialog = new AlertDialog.Builder(this);
         pictureDialog.setTitle("Select Action");
@@ -169,18 +161,15 @@ Button photo,idp,resume,bank,submit;
                 });
         pictureDialog.show();
     }
-
     private void choosePhotoFromGallaryid() {
         Intent galleryIntent = new Intent(Intent.ACTION_PICK,
                 android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(galleryIntent, GALLERYID);
     }
-
     private void captureImageid() {
         Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(intent, CAMERAID);
     }
-
     private void showPictureDialog() {
         AlertDialog.Builder pictureDialog = new AlertDialog.Builder(this);
         pictureDialog.setTitle("Select Action");
@@ -203,13 +192,11 @@ Button photo,idp,resume,bank,submit;
                 });
         pictureDialog.show();
     }
-
     private void choosePhotoFromGallary() {
         Intent galleryIntent = new Intent(Intent.ACTION_PICK,
                 android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(galleryIntent, GALLERY);
     }
-
     private void captureImage() {
         Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(intent, CAMERA);
@@ -300,7 +287,6 @@ Button photo,idp,resume,bank,submit;
      //   }
 
     }
-
     public byte[] getFileDataFromDrawablebank(Bitmap bitmap) {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         bitmap.compress(Bitmap.CompressFormat.JPEG, 90, byteArrayOutputStream);
@@ -350,7 +336,6 @@ Button photo,idp,resume,bank,submit;
         //adding the request to volley
         Volley.newRequestQueue(this).add(volleyMultipartRequest);
     }
-
     private void uploadBitmapid(final Bitmap bitmap) {
         //our custom volley request
         VolleyMultipartRequest volleyMultipartRequest = new VolleyMultipartRequest(Request.Method.POST, EndPoints.UPLOAD_URLID,
@@ -385,7 +370,6 @@ Button photo,idp,resume,bank,submit;
         //adding the request to volley
         Volley.newRequestQueue(this).add(volleyMultipartRequest);
     }
-
     private void uploadBitmap(final Bitmap bitmap) {
         //our custom volley request
         VolleyMultipartRequest volleyMultipartRequest = new VolleyMultipartRequest(Request.Method.POST, EndPoints.UPLOAD_ROOT_URLPHOTO,
@@ -420,7 +404,6 @@ Button photo,idp,resume,bank,submit;
         //adding the request to volley
         Volley.newRequestQueue(this).add(volleyMultipartRequest);
     }
-
   /*  @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -467,7 +450,6 @@ Button photo,idp,resume,bank,submit;
             }
         }
     }
-
     // Requesting run time permission method starts from here.
     public void RequestRunTimePermission(){
 
@@ -482,7 +464,6 @@ Button photo,idp,resume,bank,submit;
 
         }
     }
-
     @Override
     public void onRequestPermissionsResult(int RC, String per[], int[] Result) {
 

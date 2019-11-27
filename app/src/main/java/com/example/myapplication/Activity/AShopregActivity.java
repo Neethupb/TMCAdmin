@@ -87,7 +87,6 @@ String shop,adres,ownr,mobl,email,passs,lctn,gstin,asm,tar;
             }
         });
     }
-
     private void validUserDetailsData() {
         if (shopname.getText() == null || shopname.getText().toString().equalsIgnoreCase("")) {
             shopname.setError("Enter Shop Name");
@@ -132,7 +131,6 @@ String shop,adres,ownr,mobl,email,passs,lctn,gstin,asm,tar;
             ShopRegister();
         }
     }
-
     private void ShopRegister() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -203,7 +201,6 @@ String shop,adres,ownr,mobl,email,passs,lctn,gstin,asm,tar;
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     @Override
     public void onBackPressed()
     {

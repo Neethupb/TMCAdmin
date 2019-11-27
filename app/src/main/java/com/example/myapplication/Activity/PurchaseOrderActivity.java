@@ -53,16 +53,13 @@ public class PurchaseOrderActivity extends AppCompatActivity implements AdapterV
     int dp,dppc;
     String product,quantity,dpprice,sprdct,squnty,sprc,shop,spbr;
     EditText qutity;
-   // int stringIdList[] = {R.string.text1, R.string.text2, R.string.text3, R.string.text4};
-    int stringListCounter = 0;
     TextView pbr,qbr,dpbr;
     String[] country = { "--select product--", "Knightshield Bronze ", "Knightshield BronzePlus", "Knightshield Silver", "Knightshield SilverPlus","Knightshield Gold","Knightshield GoldPlus","Knightshield Platinum","Knightshield PlatinumPlus","Knightshield Diamond"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_purchase_order);
-
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_purchase_order);
         sharedpreferences = getSharedPreferences(Constants.MyPREFERENCES, Context.MODE_PRIVATE);
         // Creating Volley newRequestQueue .
         requestQueue = Volley.newRequestQueue(PurchaseOrderActivity.this);
@@ -224,7 +221,6 @@ public class PurchaseOrderActivity extends AppCompatActivity implements AdapterV
             }
         });
     }
-
     private void PurchaseOrder() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -266,7 +262,6 @@ public class PurchaseOrderActivity extends AppCompatActivity implements AdapterV
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void loadSpinnerData(String url) {
 
             RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
@@ -296,7 +291,6 @@ public class PurchaseOrderActivity extends AppCompatActivity implements AdapterV
             stringRequest.setRetryPolicy(policy);
             requestQueue.add(stringRequest);
         }
-
     @Override
     public void onBackPressed()
     {
@@ -306,13 +300,10 @@ public class PurchaseOrderActivity extends AppCompatActivity implements AdapterV
 
 
     }
-
-
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 
     }
-
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 

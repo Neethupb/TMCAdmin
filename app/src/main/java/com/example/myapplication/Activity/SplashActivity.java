@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.view.WindowManager;
 
 import com.example.myapplication.R;
-
 public class SplashActivity extends AppCompatActivity {
     Handler handler;
     @Override

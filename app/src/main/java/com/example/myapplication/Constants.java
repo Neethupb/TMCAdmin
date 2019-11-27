@@ -1,5 +1,4 @@
 package com.example.myapplication;
-
 public class Constants {
     public static final String MyPREFERENCES = "MyPrefs";
     public static final String HttpUrlpromoter = "http://www.truemobilecare.com/adminplus/promoter.php";

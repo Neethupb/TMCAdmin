@@ -19,8 +19,6 @@ public class FilePath {
      * @param uri
      * @return path of the selected image file from gallery
      */
-
-
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public static String getPath(final Context context, final Uri uri)
     {
@@ -90,7 +88,6 @@ public class FilePath {
 
         return null;
     }
-
     /**
      * Get the value of the data column for this Uri. This is useful for
      * MediaStore Uris, and other file-based ContentProviders.
@@ -123,7 +120,6 @@ public class FilePath {
         }
         return null;
     }
-
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is ExternalStorageProvider.
@@ -131,7 +127,6 @@ public class FilePath {
     public static boolean isExternalStorageDocument(Uri uri) {
         return "com.android.externalstorage.documents".equals(uri.getAuthority());
     }
-
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is DownloadsProvider.
@@ -139,7 +134,6 @@ public class FilePath {
     public static boolean isDownloadsDocument(Uri uri) {
         return "com.android.providers.downloads.documents".equals(uri.getAuthority());
     }
-
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is MediaProvider.
@@ -147,7 +141,6 @@ public class FilePath {
     public static boolean isMediaDocument(Uri uri) {
         return "com.android.providers.media.documents".equals(uri.getAuthority());
     }
-
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is Google Photos.

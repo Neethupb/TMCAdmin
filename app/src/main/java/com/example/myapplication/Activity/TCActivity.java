@@ -7,7 +7,6 @@ import android.view.WindowManager;
 import android.webkit.WebView;
 
 import com.example.myapplication.R;
-
 public class TCActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

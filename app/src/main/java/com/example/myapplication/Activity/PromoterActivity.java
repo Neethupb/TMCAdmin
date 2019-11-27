@@ -12,7 +12,6 @@ import android.widget.LinearLayout;
 
 import com.example.myapplication.Constants;
 import com.example.myapplication.R;
-
 public class PromoterActivity extends AppCompatActivity {
 LinearLayout addpromoter,edit,viewpromoter,home;
     SharedPreferences sharedpreferences;

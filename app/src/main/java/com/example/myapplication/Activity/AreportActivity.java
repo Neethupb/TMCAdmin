@@ -9,7 +9,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 import com.example.myapplication.R;
-
 public class AreportActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

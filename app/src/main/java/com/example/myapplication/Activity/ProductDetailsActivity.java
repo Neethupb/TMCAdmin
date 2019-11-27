@@ -9,7 +9,6 @@ import android.view.WindowManager;
 import com.example.myapplication.R;
 
 public class ProductDetailsActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -131,7 +131,6 @@ linear.setVisibility(View.GONE);
             }
         });
     }
-
     private void DeletePromoter() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -189,7 +188,6 @@ linear.setVisibility(View.GONE);
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void Savepromoter() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -267,7 +265,6 @@ linear.setVisibility(View.GONE);
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void EditPromoter() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -331,7 +328,6 @@ linear.setVisibility(View.GONE);
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void loadSpinnerData(String url) {
         {
             {
@@ -364,7 +360,6 @@ linear.setVisibility(View.GONE);
             }
         }
     }
-
     @Override
     public void onBackPressed()
     {

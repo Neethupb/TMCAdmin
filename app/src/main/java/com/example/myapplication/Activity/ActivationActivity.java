@@ -59,7 +59,6 @@ public class ActivationActivity extends AppCompatActivity implements AdapterView
     Button submit, frontcam, scan, backcam, bill,mobfront,mobback;
     SharedPreferences sharedpreferences;
     String shop;
-    Bundle b;
     Spinner spin;
     int a=0;
     ArrayList<String> CountryName;
@@ -67,9 +66,6 @@ public class ActivationActivity extends AppCompatActivity implements AdapterView
     ProgressDialog progressDialog;
     String selectshop;
     String ids;
-    String shopname;
-    Spinner shoplist;
-    private static int ageGroup = 0,shopitem = 0;
     private int GALLERY = 1, CAMERA = 2, GALLERYB = 3, CAMERAB = 4, CAMERABILL = 5, GALLERYBILL = 6,MOBILEF = 7,MOBILEB=8;
     public static final String DEFAULT = "N/A";
     String  mobf,mobb, asm, mail,nm,phone,idprf,imeinmbr,mbp,gdgt,invcdt,selectedItem,typ,prc,kntsp,mbsp,path,pathb,pathbill,shopid;
@@ -812,8 +808,6 @@ public class ActivationActivity extends AppCompatActivity implements AdapterView
     }
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-        ageGroup = i;
-      //  Toast.makeText(this, ""+i, Toast.LENGTH_SHORT).show();
     }
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
@@ -839,8 +833,7 @@ public class ActivationActivity extends AppCompatActivity implements AdapterView
         }
     }
      @Override
-    public void onBackPressed()
-     {
+    public void onBackPressed(){
          AlertDialog.Builder builder = new AlertDialog.Builder(ActivationActivity.this);
          builder.setTitle(R.string.app_name);
          builder.setIcon(R.mipmap.logo);

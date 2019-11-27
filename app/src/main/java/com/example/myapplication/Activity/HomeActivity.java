@@ -152,25 +152,7 @@ public class HomeActivity extends AppCompatActivity {
     public void onBackPressed()
     {
         Intent in=new Intent(HomeActivity.this,AloginActivity.class);
-        //Intent in=new Intent(MapsActivity.this,HomeActivity.class);
         startActivity(in);
         finish();
-       /* AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
-        builder.setTitle(R.string.app_name);
-        builder.setIcon(R.mipmap.ic_launcher);
-        builder.setMessage("Do you want to exit?")
-                .setCancelable(false)
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        dialog.cancel();
-                    }
-                });
-        AlertDialog alert = builder.create();
-        alert.show();*/
     }
 }

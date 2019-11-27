@@ -1,5 +1,4 @@
 package com.example.myapplication;
-
 public class EndPoints {
     private static final String ROOT_URL = "http://www.truemobilecare.com/android/api1.php?apicall=";
     public static final String UPLOAD_URL = ROOT_URL + "uploadpic";

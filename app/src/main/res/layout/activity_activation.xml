@@ -32,28 +32,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-          <!--  <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:layout_marginTop="20dp"
-                android:orientation="horizontal">
-
-                <TextView
-
-                    android:id="@+id/textView57"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_weight="1"
-                    android:text="Shop"
-                    android:textSize="15dp" />
-
-                <Spinner
-                    android:id="@+id/spinner4"
-                    android:layout_width="224dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-            </LinearLayout>-->
 
      <!--       <LinearLayout
                 android:layout_width="match_parent"
@@ -293,7 +271,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:hint="Date"
+                android:hint="DD/MM/YYYY"
                 android:inputType="date"
                 android:focusable="false"
                 android:enabled="true"

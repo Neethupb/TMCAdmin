@@ -30,7 +30,6 @@ public class OtpActivity extends AppCompatActivity {
     String HttpUrl = "http://www.truemobilecare.com/adminplus/otp.php";
     String HttpUrlResend = "http://www.truemobilecare.com/adminplus/resendotp.php";
     String HttpUrlSubmit = "http://www.truemobilecare.com/adminplus/submit.php";
-
     // Creating Volley RequestQueue.
     RequestQueue requestQueue;
     // Creating Progress dialog.
@@ -43,10 +42,8 @@ public class OtpActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_otp);
-
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
+        setContentView(R.layout.activity_otp);
         // Creating Volley newRequestQueue .
         requestQueue = Volley.newRequestQueue(OtpActivity.this);
         // Assigning Activity this to progress dialog.
@@ -90,7 +87,6 @@ public class OtpActivity extends AppCompatActivity {
             }
         });
     }
-
     private void Save() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -157,7 +153,6 @@ public class OtpActivity extends AppCompatActivity {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void ReSend() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -222,7 +217,6 @@ public class OtpActivity extends AppCompatActivity {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void SendOtp() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -287,8 +281,6 @@ public class OtpActivity extends AppCompatActivity {
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
-
     @Override
     public void onBackPressed()
     {

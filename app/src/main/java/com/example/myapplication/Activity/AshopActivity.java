@@ -11,9 +11,7 @@ import android.widget.LinearLayout;
 import com.example.myapplication.R;
 
 public class AshopActivity extends AppCompatActivity {
-
 LinearLayout shop,edit,stock,purchase,product,home,collection;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

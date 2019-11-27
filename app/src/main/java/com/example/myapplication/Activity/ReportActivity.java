@@ -35,7 +35,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
-
 public class ReportActivity extends AppCompatActivity implements View.OnClickListener {
 EditText from,to;
     private int mYear, mMonth, mDay;

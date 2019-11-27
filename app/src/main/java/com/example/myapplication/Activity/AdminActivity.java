@@ -27,7 +27,6 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class AdminActivity extends AppCompatActivity {
 EditText user,pass;
     String username,password;

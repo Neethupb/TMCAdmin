@@ -128,7 +128,6 @@ public class ClaimIntimationActivity extends AppCompatActivity {
             }
         });
     }
-
     private void Checkdetails() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -199,7 +198,6 @@ public class ClaimIntimationActivity extends AppCompatActivity {
         requestQueue.add(stringRequest);
 
     }
-
     @Override
     public void onBackPressed()
     {

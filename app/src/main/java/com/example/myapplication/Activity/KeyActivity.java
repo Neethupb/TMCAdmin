@@ -131,7 +131,6 @@ onBackPressed();
             }
         });
     }
-
     private void KeyActivation() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -306,7 +305,6 @@ onBackPressed();
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void SendMessage() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -359,7 +357,6 @@ onBackPressed();
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void Sendmail() {
         // Showing progress dialog at user registration time.
         progressDialog.setMessage("Please Wait");
@@ -413,7 +410,6 @@ onBackPressed();
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     @Override
     public void onBackPressed() {
         Intent in = new Intent(KeyActivity.this, ActivationActivity.class);

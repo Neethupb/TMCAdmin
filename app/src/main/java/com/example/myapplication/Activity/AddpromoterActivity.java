@@ -59,7 +59,6 @@ Button doc,aproval,back;
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_addpromoter);
-
         sharedpreferences = getSharedPreferences(Constants.MyPREFERENCES, Context.MODE_PRIVATE);
         // Creating Volley newRequestQueue .
         requestQueue = Volley.newRequestQueue(AddpromoterActivity.this);

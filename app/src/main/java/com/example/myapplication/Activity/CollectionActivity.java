@@ -47,11 +47,11 @@ public class CollectionActivity extends AppCompatActivity implements AdapterView
     ProgressDialog progressDialog;
     SharedPreferences sharedpreferences;
     Spinner spinner,spin;
-   String mode,asm,shop,name,id,shopname,collect,collected ,sellotedit,rate,remark,chequenumber,cheqdate,ref;
-   Button submit;
+    String mode,asm,shop,name,id,shopname,collect,collected ,sellotedit,rate,remark,chequenumber,cheqdate,ref;
+    Button submit;
     public static final String DEFAULT = "N/A";
     String[] country = { "--Collection Mode--", "Cash", "Cheque","E-Payment"};
-EditText chequeno,amount,sellout,date,remarks,refno;
+    EditText chequeno,amount,sellout,date,remarks,refno;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -159,7 +159,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
             }
         });
     }
-
     private void CollectionPayment() {
         // Showing progress dialog at user registration time.
        /* progressDialog.setMessage("Please Wait");
@@ -217,7 +216,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void CollectionCheque() {
         // Showing progress dialog at user registration time.
        /* progressDialog.setMessage("Please Wait");
@@ -274,7 +272,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void CollectionCash() {
         // Showing progress dialog at user registration time.
        /* progressDialog.setMessage("Please Wait");
@@ -330,7 +327,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void Login() {
         // Showing progress dialog at user registration time.
        /* progressDialog.setMessage("Please Wait");
@@ -399,7 +395,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
         // Adding the StringRequest object into requestQueue.
         requestQueue.add(stringRequest);
     }
-
     private void loadSpinnerData(String url) {
         {
             RequestQueue requestQueue= Volley.newRequestQueue(getApplicationContext());
@@ -432,7 +427,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
             requestQueue.add(stringRequest);
         }
     }
-
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         mode=spin.getSelectedItem().toString();
@@ -451,7 +445,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
 
         }
     }
-
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
@@ -463,7 +456,6 @@ EditText chequeno,amount,sellout,date,remarks,refno;
         startActivity(in);
         finish();
     }
-
     @Override
     public void onClick(View v) {
         final Calendar c = Calendar.getInstance();
