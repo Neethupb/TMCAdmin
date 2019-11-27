@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AShopregActivity">
+    tools:context=".Activity.AShopregActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
         android:layout_width="match_parent"
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:gravity="start|top"
-                android:hint="Address"
+                android:hint="Address,Pincode"
                 android:inputType="textMultiLine" />
 
             <EditText
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Mobile"
+                android:hint="Contact"
                 android:inputType="phone" />
 
             <EditText
@@ -129,25 +129,23 @@
                 android:hint="GstIn"
                 android:inputType="textPersonName" />
 
+            <EditText
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/target"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Target" />
+
             <LinearLayout
+                android:layout_marginBottom="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
-
-                <Button
-                    android:background="@drawable/buttonshape"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/colortext"
-                    android:textAlignment="center"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:id="@+id/button24"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="Register" />
 
                 <Button
                     android:background="@drawable/buttonshape"
@@ -163,6 +161,20 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Back" />
+                <Button
+                    android:background="@drawable/buttonshape"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colortext"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/button24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Register" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MapsActivity"
+    tools:context=".Activity.MapsActivity"
     android:orientation="vertical">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -165,20 +165,6 @@
         android:layout_width="match_parent"
         android:layout_height="67dp"
         android:orientation="horizontal">
-
-        <Button
-            android:background="@drawable/buttonshape"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:id="@+id/button26"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_weight="1"
-            android:text="Submit"
-            android:textColor="@color/colortext" />
-
         <Button
             android:id="@+id/button25"
             android:layout_width="155dp"
@@ -191,6 +177,20 @@
             android:textColor="@color/colortext"
             android:textSize="20dp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:text="Submit"
+            android:textColor="@color/colortext"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 

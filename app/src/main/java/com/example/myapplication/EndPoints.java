@@ -17,6 +17,15 @@ public class EndPoints {
     public static final String UPLOAD_URLATTENDANCE = ROOT_URLATTENDANCE + "uploadpic";
     public static final String GET_PICS_URLATTENDANCE = ROOT_URLATTENDANCE + "getpics";
 
+    private static final String ROOT_URLMOBF = "http://www.truemobilecare.com/android/api9.php?apicall=";
+    public static final String UPLOAD_URLMOBF = ROOT_URLMOBF + "uploadpic";
+    public static final String GET_PICS_URLMOBF = ROOT_URLMOBF + "getpics";
+
+    private static final String ROOT_URLMOBB = "http://www.truemobilecare.com/android/api10.php?apicall=";
+    public static final String UPLOAD_URLMOBB = ROOT_URLMOBB + "uploadpic";
+    public static final String GET_PICS_URLMOBB = ROOT_URLMOBB + "getpics";
+
+
     private static final String ROOT_URLPHOTO= "http://www.truemobilecare.com/adminplus/api6.php?apicall=";
     public static final String UPLOAD_ROOT_URLPHOTO = ROOT_URLPHOTO + "uploadpic";
     public static final String GET_PICS_ROOT_URLPHOTO = ROOT_URLPHOTO + "getpics";

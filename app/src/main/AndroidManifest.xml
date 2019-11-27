@@ -5,14 +5,13 @@
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
-
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -23,16 +22,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".OtpActivity"></activity>
-        <activity android:name=".ShopLoginActivity" />
-        <activity android:name=".CollectionActivity" />
-        <activity android:name=".PurchaseOrderActivity" />
-        <activity android:name=".ShopeditActivity" />
-        <activity android:name=".UploadActivity" />
-        <activity android:name=".ViewpromoterActivity" />
-        <activity android:name=".EditActivity" />
-        <activity android:name=".AddpromoterActivity" />
-        <activity android:name=".PromoterActivity" />
+        <activity android:name=".Activity.OtpActivity"></activity>
+        <activity android:name=".Activity.ShopLoginActivity" />
+        <activity android:name=".Activity.CollectionActivity" />
+        <activity android:name=".Activity.PurchaseOrderActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.ShopeditActivity" />
+        <activity android:name=".Activity.UploadActivity" />
+        <activity android:name=".Activity.ViewpromoterActivity" />
+        <activity android:name=".Activity.EditActivity" />
+        <activity android:name=".Activity.AddpromoterActivity" />
+        <activity android:name=".Activity.PromoterActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -41,34 +41,36 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
-        <activity android:name=".MapsActivity" />
-        <activity android:name=".AShopregActivity" />
-        <activity android:name=".AshopActivity" />
-        <activity android:name=".AreportActivity" />
-        <activity android:name=".AloginActivity" />
-        <activity android:name=".AdminActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".Activity.MapsActivity" />
+        <activity android:name=".Activity.AShopregActivity" />
+        <activity android:name=".Activity.AshopActivity" />
+        <activity android:name=".Activity.AreportActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.AloginActivity" />
+        <activity android:name=".Activity.AdminActivity" />
+        <activity android:name=".Activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntimationActivity" />
-        <activity android:name=".LogoutActivity" />
-        <activity android:name=".TCActivity" />
-        <activity android:name=".ClaimStatusActivity" />
-        <activity android:name=".StockDetailsActivity" />
-        <activity android:name=".ClaimIntimationActivity" />
-        <activity android:name=".ReportActivity" />
-        <activity android:name=".CheckDetailsActivity" />
+        <activity android:name=".Activity.IntimationActivity" />
+        <activity android:name=".Activity.TCActivity" />
+        <activity android:name=".Activity.ClaimStatusActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.StockDetailsActivity" />
+        <activity android:name=".Activity.ClaimIntimationActivity" />
+        <activity android:name=".Activity.ReportActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.CheckDetailsActivity" />
         <activity
-            android:name=".ProductDetailsActivity"
-            android:screenOrientation="landscape" />
-        <activity android:name=".KeyActivity" />
-        <activity android:name=".ActivationActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".MainActivity" />
+            android:name=".Activity.ProductDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.KeyActivity" />
+        <activity android:name=".Activity.ActivationActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.MainActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

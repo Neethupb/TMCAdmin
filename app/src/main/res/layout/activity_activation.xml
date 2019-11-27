@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#ffffff"
-    tools:context=".ActivationActivity">
+    tools:context=".Activity.ActivationActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
-            <LinearLayout
+          <!--  <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="38dp"
                 android:layout_marginTop="20dp"
@@ -53,7 +53,7 @@
                     android:layout_width="224dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" />
-            </LinearLayout>
+            </LinearLayout>-->
 
      <!--       <LinearLayout
                 android:layout_width="match_parent"
@@ -142,7 +142,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="idcard number"
+                android:hint="Idcard Number"
                 android:inputType="textPersonName" />
 
             <LinearLayout
@@ -158,9 +158,9 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:background="@color/colorAccent"
+                    android:background="@drawable/buttonshape"
                     android:ems="10"
-                    android:text="id proof front"
+                    android:text="Id Proof Front"
                     android:textAllCaps="false"
                     android:textColor="@color/colortext" />
 
@@ -173,8 +173,8 @@
                     android:layout_width="100dp"
                     android:layout_height="33dp"
                     android:layout_gravity="center"
-                    android:background="@color/colorAccent"
-                    android:text="id proof back"
+                    android:background="@drawable/buttonshape"
+                    android:text="Id Proof Back"
                     android:textAllCaps="false"
                     android:textColor="@color/colortext" />
             </LinearLayout>
@@ -191,7 +191,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:ems="10"
-                android:hint="imei number"
+                android:hint="IMEI Number"
                 android:inputType="number"
                 android:textAlignment="center" />
 
@@ -202,22 +202,51 @@
                 android:layout_width="90dp"
                 android:layout_height="33dp"
                 android:layout_weight="1"
-                android:text="scan"
+                android:text="Scan"
                 android:textColor="@color/colortext"
                 android:textAllCaps="false" />
         </LinearLayout>
 
-            <Button
-                android:textColor="@color/colortext"
-                android:textAllCaps="false"
-                android:background="@color/colorAccent"
+            <LinearLayout
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="40dp"
-                android:id="@+id/button15"
                 android:layout_width="match_parent"
-                android:layout_height="33dp"
-                android:text="Mobile purchase bill" />
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="120dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
+                    android:text="Purchase Bill"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colortext" />
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/button9"
+                    android:layout_width="120dp"
+                    android:layout_height="33dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
+                    android:text="Mobile Front"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colortext" />
+
+                <Button
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/button14"
+                    android:layout_width="120dp"
+                    android:layout_height="33dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonshape"
+                    android:text="Mobile Back"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colortext" />
+            </LinearLayout>
 
             <EditText
                 android:textAlignment="center"
@@ -228,7 +257,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="mobile price"
+                android:hint="Mobile Price"
                 android:inputType="number" />
 
 
@@ -241,10 +270,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="type"
+                android:enabled="false"
+                android:hint="Type"
                 android:inputType="textPersonName" />
 
             <EditText
+                android:enabled="false"
                 android:textAlignment="center"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
@@ -253,7 +284,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="price"
+                android:hint="Price"
                 android:inputType="textPersonName" />
 
             <EditText
@@ -262,7 +293,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:hint="date"
+                android:hint="Date"
                 android:inputType="date"
                 android:focusable="false"
                 android:enabled="true"
@@ -280,7 +311,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Gadget name and model"
+                android:hint="Gadget Name and Model"
                 android:inputType="textPersonName" />
 
             <EditText
@@ -292,6 +323,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:ems="10"
+                android:enabled="false"
                 android:hint="Knight Shield Shop"
                 android:inputType="textPersonName" />
 
@@ -304,7 +336,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:ems="10"
-                android:hint="mobile shop"
+                android:hint="Mobile Shop"
                 android:inputType="textPersonName" />
 
             <Button

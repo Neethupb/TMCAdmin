@@ -1,72 +1,0 @@
-
-_squid:S1192Ò"HDefine a constant instead of duplicating this literal "message" 4 times.(ÉÅÌR
-wsquid:S1192„"ZDefine a constant instead of duplicating this literal "Capture photo from camera" 3 times.(Ò€Š’úÿÿÿÿ
-rsquid:S1192ƒ"ZDefine a constant instead of duplicating this literal "Select photo from gallery" 3 times.(±ˆ¬
-ksquid:S1192"NDefine a constant instead of duplicating this literal "Select Action" 3 times.(œœı˜úÿÿÿÿ
-hsquid:S1301‰"KReplace this "switch" statement by "if" statements to increase readability.(öÛ«°şÿÿÿÿ
-hsquid:S1301«"KReplace this "switch" statement by "if" statements to increase readability.(öÛ«°şÿÿÿÿ
-hsquid:S1301Í"KReplace this "switch" statement by "if" statements to increase readability.(öÛ«°şÿÿÿÿ
-hsquid:S1301ô"KReplace this "switch" statement by "if" statements to increase readability.(ºÙ¯Ùıÿÿÿÿ
-†"squid:ClassVariableVisibilityCheck9"XMake PDF_REQ_CODE a static final constant or non-public and provide accessors if needed.(ÍÑãÀ
-jsquid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Í€ö
-jsquid:S00117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Í€ö
-Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
-@squid:S1148ÿ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148•"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-@squid:S1148«"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-jsquid:MaximumInheritanceDepth-"<This class has 6 parents which is greater than 5 authorized.(ÆĞ’Ôùÿÿÿÿ
-=squid:S1659."!Declare "idp" on a separate line.(ãöŞçûÿÿÿÿ
-@squid:S1659."$Declare "resume" on a separate line.(ãöŞçûÿÿÿÿ
->squid:S1659.""Declare "bank" on a separate line.(ãöŞçûÿÿÿÿ
-@squid:S1659."$Declare "submit" on a separate line.(ãöŞçûÿÿÿÿ
-@squid:S16593"$Declare "CAMERA" on a separate line.(è«çèùÿÿÿÿ
-Csquid:S16593"'Declare "GALLERYID" on a separate line.(è«çèùÿÿÿÿ
-Bsquid:S16593"&Declare "CAMERAID" on a separate line.(è«çèùÿÿÿÿ
-Dsquid:S16593"(Declare "CAMERABANK" on a separate line.(è«çèùÿÿÿÿ
-Esquid:S16593")Declare "GALLERYBANK" on a separate line.(è«çèùÿÿÿÿ
-Gsquid:S1659<"+Declare "PdfPathHolder" on a separate line.(¥È¬öûÿÿÿÿ
-?squid:S1659<"#Declare "PdfID" on a separate line.(¥È¬öûÿÿÿÿ
->squid:S1659<""Declare "path" on a separate line.(¥È¬öûÿÿÿÿ
-@squid:S1659<"$Declare "pathid" on a separate line.(¥È¬öûÿÿÿÿ
-Csquid:S1659<"'Declare "pathphoto" on a separate line.(¥È¬öûÿÿÿÿ
-osquid:S001163"RRename this field "GALLERY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è«çèùÿÿÿÿ
-nsquid:S001163"QRename this field "CAMERA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è«çèùÿÿÿÿ
-qsquid:S001163"TRename this field "GALLERYID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è«çèùÿÿÿÿ
-psquid:S001163"SRename this field "CAMERAID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è«çèùÿÿÿÿ
-rsquid:S001163"URename this field "CAMERABANK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è«çèùÿÿÿÿ
-ssquid:S001163"VRename this field "GALLERYBANK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è«çèùÿÿÿÿ
-osquid:S001169"WRename this field "PDF_REQ_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÑãÀ
-usquid:S00116<"XRename this field "PdfNameHolder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥È¬öûÿÿÿÿ
-usquid:S00116<"XRename this field "PdfPathHolder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥È¬öûÿÿÿÿ
-msquid:S00116<"PRename this field "PdfID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥È¬öûÿÿÿÿ
-rsquid:S001151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë
-V"squid:SwitchLastCaseIsDefaultCheck‰""Add a default case to this switch.(öÛ«°şÿÿÿÿ
-V"squid:SwitchLastCaseIsDefaultCheck«""Add a default case to this switch.(öÛ«°şÿÿÿÿ
-V"squid:SwitchLastCaseIsDefaultCheckÍ""Add a default case to this switch.(öÛ«°şÿÿÿÿ
-osquid:S3776å"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÉÎÍïıÿÿÿÿ
-lsquid:S00100Á"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êëèşÿÿÿÿ
-Psquid:S1197ò"8Move the array designator from the variable to the type.(¢Í€ö
-V"squid:SwitchLastCaseIsDefaultCheckô""Add a default case to this switch.(ºÙ¯Ùıÿÿÿÿ
-asquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(°¶«H
-bsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(õ¼¤à
-bsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(î½ñÅ
-csquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(ª‡Ã­
-hsquid:CommentedOutCodeLineé"<This block of commented-out lines of code should be removed.(øàÇéøÿÿÿÿ
-hsquid:CommentedOutCodeLineú"<This block of commented-out lines of code should be removed.(ƒ¡òĞúÿÿÿÿ
-csquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(«Å¬É
-csquid:CommentedOutCodeLine…"<This block of commented-out lines of code should be removed.(œä…è
-csquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(¾ÅË¿
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒ¡òĞúÿÿÿÿ
-csquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(«Å¬É
-csquid:CommentedOutCodeLine›"<This block of commented-out lines of code should be removed.(œä…è
-csquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾ÅË¿
-hsquid:CommentedOutCodeLine¦"<This block of commented-out lines of code should be removed.(ƒ¡òĞúÿÿÿÿ
-csquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(«Å¬É
-csquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(œä…è
-csquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(¾ÅË¿
-hsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-csquid:CommentedOutCodeLineÔ"<This block of commented-out lines of code should be removed.(ô‘‘ˆ
-csquid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(ô‘‘ˆ
-csquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(ô‘‘ˆ
-csquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(ŸŒ¹Ñ
-hsquid:CommentedOutCodeLine‹"<This block of commented-out lines of code should be removed.(ôù¥õúÿÿÿÿ

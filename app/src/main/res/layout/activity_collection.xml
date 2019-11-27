@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CollectionActivity">
+    tools:context=".Activity.CollectionActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
         android:layout_width="match_parent"
@@ -75,6 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+
     <EditText
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
@@ -97,8 +98,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Cheque Date" />
-
+        android:hint="Date" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/refno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ref.No" />
     <EditText
         android:hint="Amount"
         android:layout_marginTop="20dp"

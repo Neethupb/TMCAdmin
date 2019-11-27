@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colortext"
-    tools:context=".ProductDetailsActivity">
-
+    tools:context=".Activity.ProductDetailsActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar8"
@@ -15,265 +14,354 @@
         android:layout_height="50dp"
         android:background="@color/colorAccent"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" >
+        android:theme="?attr/actionBarTheme">
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Details "
+            android:textColor="@color/colortext"
+            android:textSize="15dp"
+            android:textStyle="bold" />
 
+    </androidx.appcompat.widget.Toolbar>
     <ImageView
+        android:layout_marginTop="20dp"
         android:id="@+id/imageView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/knightshield" />
-    </androidx.appcompat.widget.Toolbar>
-
+        app:srcCompat="@mipmap/knflogo" />
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="356dp">
-        <TableRow
-            android:background="#eb1b0c"
-            android:padding="5dp">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TableRow android:background="@color/colorAccent">
+
             <TextView
-                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Product"
+                android:textAlignment="center"
                 android:textColor="@color/colortext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Product" />
+                android:textStyle="bold" />
+
             <TextView
-                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Price Range"
+                android:textAlignment="center"
                 android:textColor="@color/colortext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Price Range" />
+                android:textStyle="bold" />
+
             <TextView
-                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Price"
+                android:textAlignment="center"
                 android:textColor="@color/colortext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Price" />
+                android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
-                android:textColor="#0f0f0f"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:text="Knight Shield Bronze" />
+                android:background="@drawable/cellborder"
+                android:text="Bronze"
+                android:textAlignment="center"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+
             <TextView
-                android:textColor="#0f0f0f"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:text="Upto 5999" />
+                android:background="@drawable/cellborder"
+                android:text="Upto 5999"
+                android:textAlignment="center"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+
             <TextView
-                android:textColor="#0f0f0f"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:text="699" />
+                android:background="@drawable/cellborder"
+                android:text="699"
+                android:textAlignment="center"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
-                android:textColor="#0f0f0f"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:text="Knight Shield Bronze Plus" />
+                android:background="@drawable/cellborder"
+                android:text="Bronze Plus"
+                android:textAlignment="center"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+
             <TextView
-                android:textColor="#0f0f0f"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:text="6000 to 9999" />
+                android:background="@drawable/cellborder"
+                android:text="6000 to 9999"
+                android:textAlignment="center"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+
             <TextView
-                android:textColor="#0f0f0f"
-                android:textStyle="bold"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:text="999" />
+                android:background="@drawable/cellborder"
+                android:text="999"
+                android:textAlignment="center"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Silver"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
-                android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Knight Shield Silver" />
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="10000 to 14999"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="1499"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Silver Plus"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
-                android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Knight Shield Silver Plus" />
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="15000 to 19999"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="1999"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Gold"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
-                android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Knight Shield Gold" />
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="20000 to 29999"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="2499"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Gold Plus"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
-                android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Knight Shield Gold Plus" />
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="30000 to 39999"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="3299"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Platinum"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
-                android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Knight Shield Platinum" />
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="40000 to 49999"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="3799"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
+
+        <TableRow android:background="#ffffff">
+
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="Platinum Plus"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
-                android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Knight Shield Platinum Plus" />
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="50000 to 69999"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="4499"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
         </TableRow>
-        <TableRow
-            android:background="#ffffff"
-            android:padding="5dp">
-            <TextView
-                android:textColor="#0f0f0f"
-                android:textStyle="bold"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Knight Shield Diamond" />
+
+        <TableRow android:background="#ffffff">
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
-                android:text="70000 to 90000"
+                android:background="@drawable/cellborder"
+                android:text="Diamond"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_weight="1"
+                android:background="@drawable/cellborder"
+                android:text="70000 to 90000"
+                android:textAlignment="center"
+                android:textColor="#0f0f0f"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/cellborder"
                 android:text="5499"
+                android:textAlignment="center"
                 android:textColor="#0f0f0f"
                 android:textStyle="bold" />
         </TableRow>

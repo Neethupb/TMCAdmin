@@ -1,45 +1,0 @@
-
-csquid:CommentedOutCodeLine‹"<This block of commented-out lines of code should be removed.(€»†Ã
-vsquid:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
-csquid:CommentedOutCodeLine†"<This block of commented-out lines of code should be removed.(©ÄÂğ
-_squid:UselessImportCheck!"6Remove this unused import 'android.widget.RadioGroup'.(İÚûÿÿÿÿ
-Isquid:S5261˜"1Add explicit curly braces to avoid dangling else.(å¥‡
-hsquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(èÂöùùÿÿÿÿ
-9squid:S1659A""Declare "path" on a separate line.(¦Ìİä
-isquid:S00116E"QRename this field "CAMERA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¼æÿ
-csquid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(¾ÅË¿
-hsquid:CommentedOutCodeLineú"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-;squid:S1659A"$Declare "result" on a separate line.(¦Ìİä
-csquid:HiddenFieldChecká"@Rename "requestQueue" which hides the field declared at line 78.(èĞ½
-Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
-rsquid:S00115D"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—­öë
-vsquid:S2293Õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô›Óíüÿÿÿÿ
-csquid:HiddenFieldCheckİ"@Rename "requestQueue" which hides the field declared at line 78.(èĞ½
-lsquid:S00100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³àâùÿÿÿÿ
-hsquid:CommentedOutCodeLine²"<This block of commented-out lines of code should be removed.(‘¾‚§úÿÿÿÿ
-lsquid:S00100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â“Ûòşÿÿÿÿ
-squid:S1186Õ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
-Ysquid:UselessImportCheck;"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
-osquid:S00116R"RRename this field "HttpUrl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÖğıÿÿÿÿ
-bsquid:S1192T"FDefine a constant instead of duplicating this literal "Leave" 3 times.(ÃŒ–Ëøÿÿÿÿ
-[squid:UselessImportCheck "7Remove this unused import 'android.widget.RadioButton'.(®é«
-hsquid:CommentedOutCodeLineØ"<This block of commented-out lines of code should be removed.(®Ú¡Çıÿÿÿÿ
-csquid:CommentedOutCodeLineÉ"<This block of commented-out lines of code should be removed.(ÎÉŸê
-osquid:S00117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
-hsquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(ß›ûêüÿÿÿÿ
-Rsquid:UselessImportCheck>".Remove this unused import 'java.util.Objects'.(¼¸õ›
-csquid:CommentedOutCodeLineÕ"<This block of commented-out lines of code should be removed.(÷‘øÂ
-hsquid:CommentedOutCodeLine¯"<This block of commented-out lines of code should be removed.(ß›ûêüÿÿÿÿ
-bsquid:CommentedOutCodeLinek"<This block of commented-out lines of code should be removed.(òŞ›˜
-usquid:UselessImportCheck3"LRemove this unused import 'com.google.android.gms.maps.model.MarkerOptions'.(²ªÅüÿÿÿÿ
-osquid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÀÃşÿÿÿÿ
-\squid:UselessImportCheck"8Remove this unused import 'android.provider.MediaStore'.(ãçšş
-csquid:CommentedOutCodeLineé"<This block of commented-out lines of code should be removed.(ª‡Ã­
-8squid:S1659A"!Declare "lon" on a separate line.(¦Ìİä
-hsquid:CommentedOutCodeLineƒ"<This block of commented-out lines of code should be removed.(¡É¸¿ûÿÿÿÿ
-hsquid:CommentedOutCodeLine¿"<This block of commented-out lines of code should be removed.(°Œ‰ıøÿÿÿÿ
-Usquid:UselessImportCheck",Remove this unused import 'android.net.Uri'.(òêû‘ıÿÿÿÿ
-9squid:S1659A""Declare "name" on a separate line.(¦Ìİä
-osquid:S00116S"WRename this field "HttpUrlleave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›í’
-csquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(œä…è
->squid:S1659K""Declare "back" on a separate line.(£šçşÿÿÿÿ

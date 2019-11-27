@@ -11,7 +11,7 @@ import android.provider.MediaStore;
 
 import androidx.annotation.RequiresApi;
 
-class FilePath {
+public class FilePath {
     /**
      * Method for return file path of Gallery image
      *
